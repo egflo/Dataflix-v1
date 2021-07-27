@@ -1,0 +1,92 @@
+
+.title {
+    text-align: center;
+    margin: 0 auto;
+}
+
+h2 {
+    text-align: center;
+}
+body{
+    background: whitesmoke;
+}
+
+.movie_button {
+    border-radius: 15px;
+    background-color: #207cca;
+    color:#fafafa;
+    width: 130px;
+    height: 35px;
+    border: none;
+    display: inline;
+}
+
+.browsing {
+	text-align: center;
+	margin-top: 2em;
+    margin-left: 8em;
+    margin-right: 8em;
+}
+
+.browsing table {
+    word-wrap: break-word;
+    max-width: 165px;
+    padding-bottom: 10px;
+}
+
+td {
+    /* box-shadow: 2px 2px #888888; */
+}
+
+img{
+    height: 220px;
+    width: 165px;
+}
+
+.checked {
+    color: orange;
+}
+
+
+.browsing table {
+	margin-left:auto;
+    margin-right:auto;
+    border-collapse: separate;
+    border-spacing: 40px 0;
+}
+
+.browsing td {
+    background: #ffffff;
+}
+
+/*---------- star rating ----------*/
+
+.stars-outer {
+    display: inline-block;
+    position: relative;
+    font-family: FontAwesome;
+}
+
+
+.stars-inner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 0;
+}
+
+.stars-inner::before {
+    content: "\f005 \f005 \f005 \f005 \f005";
+    color: #f8ce0b;
+}
+
+.stars-outer::before {
+    content: "\f006 \f006 \f006 \f006 \f006";
+    color: #ddd;
+}
+
+.stars-inner::before {
+    content: "\f005 \f005 \f005 \f005 \f005";
+}

@@ -1,0 +1,165 @@
+@CHARSET "ISO-8859-1";
+
+
+.title {
+    text-align: center;
+}
+
+
+h1 {
+    text-align: center;
+}
+
+body{
+    background: whitesmoke;
+}
+
+.cast_photo img {
+    height: 250px;
+    width: 200px;
+}
+
+.bio_text {
+    overflow: auto;
+    width: auto;
+    height: 140px;
+    margin: 0;
+    padding-bottom: 0px;
+}
+
+.data {
+    font-size: 15px;
+}
+
+.cast_container {
+    display: grid;
+    grid-template-columns: 200px 450px;
+    max-width: 650px;
+    max-height: 250px;
+    margin: 0 auto;
+    background: white;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+
+
+}
+
+.cast_data {
+    width: auto ;
+    height: auto;
+}
+
+.star_information {
+    empty-cells: hide;
+    width: auto;
+    margin: 0;
+}
+
+
+.star_information td {
+    padding-left: 5px;
+}
+
+.star_information td:nth-child(-n+2) {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.star_information p:nth-child(n+1) {
+    margin: 0;
+}
+
+.star_information b:nth-child(n+1) {
+    margin: 0;
+    font-size: 20px;
+}
+
+.movie_info p, b {
+    margin: 0;
+}
+
+.movie_info b {
+    font-size: 20px;
+}
+
+.movie_info td {
+    overflow: auto;
+}
+
+.movie_info td {
+    height: 15px;
+}
+
+.movie_list {
+    margin: 0 auto;
+    width: 600px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    /* ... */
+    justify-content: space-evenly;
+    justify-items: center;
+    align-content: space-evenly;
+    align-items: center;
+}
+
+
+.movie_poster {
+    width:150px;
+    height: 200px;
+    display: inline-block;
+}
+
+.movie_info {
+    text-align: left;
+}
+
+.info_popout {
+    margin: 0;
+    width: 400px;
+    height: 200px;
+    background: white;
+}
+
+.movie_data {
+    width: 150px;
+    height: 200px;
+    margin: 0;
+    display: grid;
+    grid-template-columns: 150px auto;
+    grid-gap: 0;
+    border: 2px solid whitesmoke;
+    row-gap: 5px;
+    background: white;
+    transition: width 1s ease;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+
+}
+
+.movie_data tr:nth-child(even)
+{background-color: #f2f2f2;}
+
+.collapse {
+    visibility: hidden;
+}
+
+.collapse.show {
+    visibility: visible;
+    display: block;
+}
+
+.collapsing {
+    position: relative;
+    height: 0;
+    overflow: hidden;
+    -webkit-transition-property: height, visibility;
+    transition-property: height, visibility;
+    -webkit-transition-duration: 1s;
+    transition-duration: 1s;
+    -webkit-transition-timing-function: ease;
+    transition-timing-function: ease;
+}
+.collapsing.width {
+    -webkit-transition-property: width, visibility;
+    transition-property: width, visibility;
+    width: 0;
+    height: auto;
+}

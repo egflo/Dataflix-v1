@@ -1,0 +1,73 @@
+body {
+    background: whitesmoke;
+}
+
+
+.title {
+    text-align: center;
+}
+
+
+.login_block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 100px;
+}
+
+
+fieldset {
+    background: white;
+    width: 400px;
+    border-radius:5px;
+    border: 1px solid grey;
+}
+
+
+label {
+    display:block;
+    font-weight: bold;
+    width: 100px !important;
+    text-align: left !important;
+}
+
+#movie_title, #movie_year, #movie_director, #cast_name, #birth_year, #genre_name {
+    width: 350px;
+    font-family: 'Roboto', sans-serif;
+    margin:0 auto;
+}
+
+input[type=text]{
+    height:25px;
+    width: 350px;
+    border-radius:5px;
+    display:block;
+    margin:0 auto;
+}
+
+
+form p {
+    color: red;
+    font-size: 120%;
+    text-align: center;
+}
+
+#search_buttons input[type=button], input[type=submit] {
+    position: relative;
+    display: block;
+    background-color:#207cca;
+    border:2px solid #207cca;
+    color:#fafafa;
+    width:320px;
+    font-weight: bold;
+    height:30px;
+    border-radius: 10px;
+    margin: 0 auto;
+
+    margin-bottom: 10px;
+}
+
+#search_buttons input[type=submit] {
+    margin-top: 20px;
+}

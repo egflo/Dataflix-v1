@@ -1,0 +1,78 @@
+
+.g-recaptcha {
+	 width: 304px;
+}
+
+body{
+    background: whitesmoke;
+}
+
+.login_block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#film_icon {
+    font-size: 100px;
+}
+
+label {
+    display:block;
+    font-weight: bold;
+}
+
+fieldset {
+    background: white;
+    width: 400px;
+    border-radius:5px;
+    border: 1px solid grey;
+}
+
+
+#mail, #pass, #name, #bold_text {
+    width: 350px;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+#login_button, #alt{
+    margin: 0 auto;
+    width:320px;
+}
+
+input[type=text], input[type=password] {
+    height:25px;
+    width: 350px;
+    border-radius:5px;
+    display:block;
+}
+
+#login_button input[type=button], input[type=submit] {
+    position: relative;
+    border:2px solid #207cca;
+    background-color:#207cca;
+    color:#fafafa;
+    width:320px;
+    font-weight: bold;
+    height:30px;
+    border-radius: 10px;
+}
+
+#alt input[type=button]{
+	position: relative;
+	display: block;
+	background-color:#207cca;
+	border:2px solid #207cca;
+	color:#fafafa;
+	width:320px;
+	font-weight: bold;
+	height:30px;
+    border-radius: 10px;
+}
+
+
+#alt input[type=button]:nth-child(1) {
+    margin-bottom: 10px;
+}
