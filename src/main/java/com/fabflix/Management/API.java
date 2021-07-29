@@ -23,7 +23,7 @@ import java.util.LinkedHashMap;
 
 public class API {
     public static int movie(String movie_id, Connection connection)  {
-        String API_KEY = "360e5c3b";
+        String API_KEY = "";
         int row_ratings, row_movie = 0;
 
         try {
